@@ -75,9 +75,8 @@
         height: 15%;
         color: yellow;
         text-align: center;
-        display: block;
         transition: 0.2s all ease-in-out;
-        display: block;
+        display: none;
     
     }
     
