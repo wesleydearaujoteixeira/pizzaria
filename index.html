@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pizzaria </title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/main.css">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="Logo-menu">
+            <div id="btn">
+                <svg class="bt" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg>
+                <p class="btMenu">menu</p>
+            </div>
+        </div>
+        
+        <div>
+            <img src="components/Pizza-logo-vector-PNG-removebg-preview.png" id="pizza-logo" alt="pizza" width="70px">
+        </div>
+        <div class="cadastro">
+            <button id="enviar"> Enviar</button>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+        </div>
+    </header>
+
+    <div class="main">
+        <div id="background">
+            <video loop autoplay muted>
+                <source src="components/pizza.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="container-2">
+            <section>
+                <form id="form">
+                    <img src="components/mestre-kuka.png" alt="mestre kuka" width="250px">
+                    <input type="tel" name="celular" id="cel" placeholder="Celular" pattern="\d{10,14}">
+                    <input type="email" id="email" placeholder="email">
+                    <button id="btn-pedido"> Fazer Pedido </button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <div id="navBar">
+        <div id="close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="36" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+              </svg>
+            </div>
+        <ul>
+            <li><a href="#"> Whatsapp </a></li>
+            <li><a href="#"> Instagram </a></li>
+            <li><a href="#"> LikedIn </a></li>
+            <li><a href="#"> Facebook </a></li>
+            <li><a href="#"> Cardapio </a></li>
+        </ul>
+    </div>
+    <div id="backgroundPizza">
+        <img src="https://pizzaz.com.br/wp-content/uploads/2023/12/4.png" alt="pizz" class="backpizza" width="100%" height="100%" >
+    </div>
+    <div id="wpp"><img src="components/WhatsApp.svg.webp" alt="whatsapp" width="60px" class="wpp"></div>
+    <div class="content-main">
+        <section id="section">
+            <h1>  SABORES EM PROMOÇÃO: </h1>
+            <div class="cardapios">
+                <div></div>
+                <p> Calabresa 29,99 R$</p>
+                <svg xmlns="http://www.w3.org/2000/svg"  id="img-content-open"  color="white" width="45" height="45" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div id="content-card" >
+                <div class="menu">
+                    <div class="ingredientes">
+                        <li>Contém queijo, mortandela, calabresa, azeitona e palmito</li>
+                        <h2> Bordas: </h2>
+                    </div>
+                    <ul class="menu-borda">
+                        <li> Cheedar 3,99 R$</li>
+                        <li> Catupiry 2,50 R$ </li>
+                        <li> Chocolate 1,50 R$ </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cardapios"   >
+                <div></div>
+                <p> Portuguesa 39,90 R$</p>
+                <svg xmlns="http://www.w3.org/2000/svg"  id="img-content-open-2"  color="white" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div id="content-card-two" >
+                <img src="" alt="">
+                <div class="menu">
+                    <div class="ingredientes">
+                        <li>Contém queijo, linguiça, calabresa, misto e ovos</li>
+                        <h2> Bordas: </h2>
+                    </div>
+                    <ul class="menu-borda">
+                        <li> Cheedar 3,99 R$</li>
+                        <li> Catupiry 2,50 R$ </li>
+                        <li> Chocolate 1,50 R$ </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cardapios"   >
+                <div></div>
+                <p> Mussarela 23,90 R$</p>
+                <svg xmlns="http://www.w3.org/2000/svg"  id="img-content-open-3"  color="white" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div id="content-card-three" >
+                <img src="" alt="">
+                <div class="menu">
+                    <div class="ingredientes">
+                        <li> Contém queijo, presunto, palmito ketchup e maionese</li>
+                        <h2> Bordas: </h2>
+                    </div>
+                    <ul class="menu-borda">
+                        <li> Cheedar 3,99 R$</li>
+                        <li> Catupiry 2,50 R$ </li>
+                        <li> Chocolate 1,50 R$ </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cardapios"   >
+                <div></div>
+                <p>  Carne do Sol 49,90 R$</p>
+                <svg xmlns="http://www.w3.org/2000/svg"  id="img-content-open-4"  color="white" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div id="content-card-four" >
+                <img src="" alt="">
+                <div class="menu">
+                    <div class="ingredientes">
+                        <li> Contém queijo, presunto, palmito ketchup e maionese</li>
+                        <h2> Bordas: </h2>
+                    </div>
+                    <ul class="menu-borda">
+                        <li> Cheedar 3,99 R$</li>
+                        <li> Catupiry 2,50 R$ </li>
+                        <li> Chocolate 1,50 R$ </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="yeloow"> </div>
+    <footer>
+        <div>
+            <p> &copy; Desenvolvido por Wesley de Araujo Texeira </p>
+        </div>
+        <div>
+            <p> Rua Augusta, número - 333<br>
+                São Paulo - SP
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
