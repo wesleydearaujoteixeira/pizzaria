@@ -1,5 +1,265 @@
 
-@media screen and (min-width: 801px) and (max-width: 1300px) {
+@media screen and (min-width: 801px) and (max-width: 1349px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+    }
+    
+    html, body {
+    height: 100vh;
+    width: 100vw;
+    
+    
+    }
+    
+    
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    background-color: rgb(253, 165, 2);
+    color: white;
+    z-index: 2;
+    padding: 2.2rem;
+    }
+    
+    section {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    border-radius: 20px;
+    
+    }
+    
+    
+    
+    #container-2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    }
+    
+    form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    margin-bottom: 2rem;
+    
+    }
+    
+    form > input {
+    padding: 10px;
+    border-radius: 15px 10px 15px 15px;
+    font-size: 20px;
+    width: 70%;
+    
+    }
+    
+    form > button {
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    }
+    
+    #backgroundPizza {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    
+    
+    }
+    
+    
+    
+    
+    #wpp {
+    width: 90px;
+    bottom: 0%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: transparent;
+    width: 100vw;
+    position: fixed;
+    margin-right: 2rem;
+    }
+    
+    .wpp {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    
+    }
+    
+    .wpp:hover {
+    transform: translateY(-10px);
+    transition: 2s;
+    cursor: pointer;
+    
+    }
+    
+    
+    #btn {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+    }
+    
+    
+    #btn > p {
+    font-size: 16px;
+    }
+    
+    #background {
+    height: 100vh;
+    width: 100vw;
+    }
+    
+    
+    video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    
+    }
+    
+    #SocialMedia {
+    margin-top: 2rem;
+    }
+    
+    .main {
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #navBar {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    margin-left: -100vw;
+    background-color: rgb(202, 66, 66);
+    color: yellow;
+    height: 100vh;
+    position: fixed;
+    padding: 2rem;
+    transition: all 0.5s ease-in-out;
+    z-index: 2;
+    border: 8px 8px 10px solid yellow;
+    }
+    
+    #navBar > ul > li > a{
+    color: yellow;
+    }
+    
+    #navBar {
+    border: 6px solid rgb(218, 218, 28);
+    
+    }
+    
+    
+    #close {
+    margin: auto;
+    text-align: right;
+    margin-bottom: 4rem;
+    top: 0;
+    cursor: pointer;
+    }
+    
+    
+    .cadastro {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    margin-bottom: 0.2rem;
+    }
+    
+    .cadastro > input {
+    padding: 0.4rem 0;
+    border-radius: 0px 10px 10px 0px;
+    background-color: brown;
+    width: 150px;
+    transition: 0.5s;
+    }
+    
+    
+    .cadastro > input:hover {
+    padding: 0.2rem 0;
+    border-radius: 0px 10px 10px 0px;
+    width: 300px;
+    background-color: white;
+    }
+    
+    .cadastro > #enviar {
+    background-color: blue;
+    color: white;
+    padding: 0.4rem ;
+    border-radius: 10px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+    }
+    
+    .cadastro > input::placeholder {
+    text-align: center;
+    color: rgba(199, 187, 173, 0.644);
+    }
+    
+    
+    
+    h1 {
+    margin-bottom: 1rem;
+    }
+    
+    ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style-type: none;
+    
+    }
+    
+    li {
+    list-style-type: none;
+    }
+    
+    ul > li > a {
+    text-decoration: none;
+    color: black;
+    
+    }
+    
 
     #section{
         width:  83%;
@@ -300,6 +560,17 @@
         #backgroundPizza {
             height: 65%;
             width: 100%;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 2rem;
+            padding: 2rem;
+            background-color: rgb(41, 41, 211);
+            color: rgb(208, 255, 0);
+            width: 100vw;
         }
 
             

@@ -1,5 +1,5 @@
  
-
+@media screen and (min-width: 1350px){
     #section{
         width:  50%;
         height: 88%;
@@ -142,3 +142,6 @@
         height: 5px;
         width: 100vw;
     }
+
+}
+   
